@@ -242,7 +242,6 @@ footer {
 .card-cg {
 	width: 100px;
 	height: 200px;
-	border: 1px solid red;
 	border-radius: 15px;
 	margin-left: 10px;
 	margin-top: 10px;
@@ -322,4 +321,74 @@ footer {
 .footer-courses a {
 	text-decoration: none;
 	color: white;
+}
+/* categories section */
+
+.c-1 {
+	background: url("../images/categories/Postgraduate.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.c-2 {
+	background: url("../images/categories/under.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.c-3 {
+	background: url("../images/categories/Accounting\ &\ Finance.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.c-4 {
+	background: url("../images/categories/Business\ &\ Managment.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.c-5 {
+	background: url("../images/categories/Project\ Management.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.c-6 {
+	background: url("../images/categories/suppy-chain.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.c-7 {
+	background: url("../images/categories/education.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.c-8 {
+	background: url("../images/categories/team-leader.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.c-9 {
+	background: url("../images/categories/tourisom.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.c-10 {
+	background: url("../images/categories/information.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.c-11 {
+	background: url("../images/categories/health.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.c-12 {
+	background: url("../images/categories/law.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.card-cg div {
+	color: white;
+	display: flex;
+	justify-content: center;
+	font-weight: bold;
+	font-size: 23px;
+	padding-top: 70px;
 }
