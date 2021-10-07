@@ -20,18 +20,11 @@ $(".slider-nav").slick({
 			},
 		},
 		{
-			breakpoint: 736,
-			slidesToShow: 1,
-			slidesToScroll: 1,
-			asNavFor: ".slider-for",
-			dots: true,
-		},
-		{
-			breakpoint: 688,
-			slidesToShow: 1,
-			slidesToScroll: 1,
-			asNavFor: ".slider-for",
-			dots: true,
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+			},
 		},
 	],
 });
