@@ -431,6 +431,24 @@ footer {
 		padding: 0;
 		margin: 0;
 	}
+	/* navBar */
+	.nav-half {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.nav-half a {
+		font-size: 12px;
+	}
+	.nav-second-half {
+		padding-left: 20px;
+	}
+	.d-flex {
+		display: -ms-flexbox !important;
+		display: flex !important;
+		flex-direction: column;
+		align-content: center;
+		align-items: center;
+	}
 	/* hero section */
 	.hero-section {
 		padding-top: 100px;
@@ -713,6 +731,25 @@ footer {
 	}
 }
 @media (min-width: 1200px) {
+	.nav-half {
+		padding-left: 50px;
+	}
+	.nav-second-half {
+		padding-left: 250px;
+	}
+	.hero-container {
+		padding-left: 120px;
+		padding-right: 120px;
+	}
+	.course-container {
+		padding-left: 140px;
+		padding-right: 140px;
+	}
+
+	.hero-section {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
 	.hero-section h2 {
 		margin-top: 30px;
 		font-size: 37px;
@@ -742,8 +779,8 @@ footer {
 		grid-template-columns: repeat(3, 1fr);
 		justify-items: center;
 		grid-gap: 10px;
-		margin-left: 110px;
-		margin-right: 110px;
+		margin-left: 155px;
+		margin-right: 155px;
 	}
 	.iframe {
 		width: 959px;
@@ -759,5 +796,11 @@ footer {
 		background-repeat: no-repeat;
 		bottom: -10px;
 		left: 718px;
+	}
+	.review-container {
+		padding-top: 20px;
+		padding-left: 120px;
+		padding-right: 120px;
+		margin: 48px;
 	}
 }
