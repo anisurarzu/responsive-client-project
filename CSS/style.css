@@ -437,31 +437,34 @@ footer {
 		grid-template-columns: repeat(1, 1fr);
 	}
 	.nav-half a {
-		font-size: 12px;
+		font-size: 16px;
 	}
 	.nav-second-half {
 		padding-left: 20px;
+		display: grid !important;
+		grid-template-columns: repeat(1, 1fr);
 	}
-	.d-flex {
-		display: -ms-flexbox !important;
-		display: flex !important;
-		flex-direction: column;
-		align-content: center;
-		align-items: center;
+	.social-media-icon-container {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		padding-right: 195px;
+	}
+	.nav-div a {
+		font-size: 12px;
 	}
 	/* hero section */
 	.hero-section {
-		padding-top: 100px;
-		padding-left: 39px;
+		padding-top: 0px;
+		padding-left: 42px;
 		/* margin: 0 auto; */
 		margin: 0px;
 		padding-right: 23px;
 	}
 	.hero-section h6 {
-		font-size: 17px;
+		font-size: 10px;
 	}
 	.hero-section h2 {
-		margin-top: 30px;
+		margin-top: 8px;
 		font-size: 18px;
 		line-height: 30px;
 	}
